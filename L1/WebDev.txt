@@ -1,0 +1,19 @@
+* Web: Documents and resources exist in an interconnected system and is accessed using internet.
+* Web Development: Process of creating website and web applications.
+
+Website: 
+-> Content is static.
+->   Read only.
+
+Web Application: 
+-> Dynamic in nature.
+-> Interaction is possible.
+
+Web Application: 
+1. Front end/ UI (Design, User Interaction)
+2. Back end (Logic)
+3. Database (Storage)
+
+* Full Stack Developer: Has all the above 3 skills.
+
+MERN: MongoDB Express.js React.js Node.js
