@@ -1,0 +1,13 @@
+What is "Inter net"?
+-> Interconnected networks
+
+-> IP address is required for any type of communication between client ans server.
+
+* Packets: Small chunks of data.
+* Protocol: Set of rules.
+
+Protocol Stack:
+-> Application Layer
+-> TCP
+-> IP 
+-> Hardware

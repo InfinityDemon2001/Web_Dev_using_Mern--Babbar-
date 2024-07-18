@@ -1,0 +1,18 @@
+* Network: A system in which multiple resources are connected to each other. Can be wired or wireless. Used to communicate, resource sharing, conversation.
+  Eg: LAN, MAN, WAN
+
+* Internet: Global system of networks / Network of networks.
+
+* WWW: World Wide Web -> interconnected documents and resources -> access via internet.
+  It is subset of internet.
+
+* Browser: Tool used used to access documents, resources, websites, web applications.
+* Browser Engine: It is the essential software that acts as a bridge between the web page’s code (HTML, CSS, JavaScript) and the visual experience you see on your screen. 
+
+* Client-Server Model: It is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters called clients. In the client-server architecture, when the client computer sends a request for data to the server through the internet, the server accepts the requested process and delivers the data packets requested back to the client. Clients do not share any of their resources. 
+
+Client Types -> Devices, Apps, Browser, Command Line Interface, etc.
+Server Types -> DB server, File server, App server, Web server, Email server, etc.
+
+* User ---> Client ---> request ---> Domain Name Resolution (DNR) ---> address ---> Server
+  Server ---> response ---> Client
