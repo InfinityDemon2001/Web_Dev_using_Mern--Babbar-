@@ -1,0 +1,7 @@
+* Tags: It is a markup entity which gives a structure, meaning and formatting to the content.
+  Types:-
+  1. Semantics
+  2. Structure 
+  3. Formatting 
+
+* Element = Tag + Content 
