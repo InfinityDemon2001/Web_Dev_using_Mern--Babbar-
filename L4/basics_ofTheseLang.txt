@@ -1,0 +1,15 @@
+HTML: Hyper Text Markup Language
+-> Defines a structure for website.
+
+CSS
+-> Styling of a website.
+
+Javascript
+-> Logic defined for a website.
+
+Tags
+
+-> <!DOCTYPE html> tag indicates document type is HTML5.
+-> <html> tag is the root element.
+-> <head> tag is used for storing meta data, title, SEO.
+-> <body> tag is used for defining all the other content of the website.
