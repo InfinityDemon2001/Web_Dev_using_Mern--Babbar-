@@ -1,0 +1,5 @@
+* div tag: Used for creating divisions. Generic container tag. Used for wrapping.
+
+Element Types:
+1. Block elements:- Takes full width, next line
+2. Inline elements:- Does not take full width, same line
