@@ -1,0 +1,9 @@
+* Form: Structure that collects user input.
+
+-> form tag:- To create HTML forms for user input.
+-> input tag:- To take input, exists in many format.
+-> label tag:- Creates label, screen reader [IMP: id "" of input = for "" of label]
+
+-> type="submit" attribute of input tag is used to send all the collected data for storage.
+-> type="radio" attribute of input tag is used to give multiple options but only one can be selected.
+-> type="radio" attribute of input tag is used to give multiple options, any number of options can be selected.
