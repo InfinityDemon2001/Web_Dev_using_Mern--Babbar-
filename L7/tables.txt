@@ -1,0 +1,9 @@
+* Table: Arrangement of data in the form of rows and columns.
+
+-> table tag
+-> thead tag: for heading content
+-> tbody: for content
+-> tfoot: for summarization
+-> tr: row in table
+-> tr: for data
+-> th: for creating heading
