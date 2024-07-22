@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Two</title>
+    </head>
+
+    <body>
+        <h2>Job Application</h2>
+
+        <form>
+            <label for="name">Name:</label><br/>
+            <input type="text" name="name" id="name">
+
+            <br/>
+            <br/>
+
+            <label for="emailID">Email:</label><br/>
+            <input type="text" name="emailID" id="emailID">
+
+            <br/>
+            <br/>
+
+            <label for="phoneNumber">Phone:</label><br/>
+            <input type="tel" name="phoneNumber" id="phoneNumber">
+
+            <br/>
+            <br/>
+
+            <label for="resume">Resume:</label><br/>
+            <input type="file" name="resume" id="resume">
+
+            <br/>
+            <br/>
+
+            <label for="experience">Experience (years):</label><br/>
+            <input type="number" name="experience" id="experience" min="0" max="50">
+
+            <br/>
+            <br/>
+
+            <fieldset>
+                <legend>Skills:</legend>
+
+                <input type="checkbox" name="checkbox1" id="checkbox1"><br/>
+                <label for="checkbox1">HTML</label>
+
+                <br/>
+                <br/>
+
+                <input type="checkbox" name="checkbox2" id="checkbox2"><br/>
+                <label for="checkbox2">CSS</label>
+
+                <br/>
+                <br/>
+
+                <input type="checkbox" name="checkbox3" id="checkbox3"><br/>
+                <label for="checkbox3">JavaScript</label>
+            </fieldset>
+
+            <br/>
+            <br/>
+
+            <label for="education">Highest Education:</label><br/>
+            <select name="education" id="education">
+                <option value="highschool">High School</option>
+                <option value="highschool">A</option>
+                <option value="highschool">B</option>
+                <option value="highschool">C</option>
+                <option value="highschool">D</option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <fieldset>
+                <legend>Availability:</legend>
+
+                <input type="radio" name="availability" id="radio1">
+                <label for="radio1">Full Time</label><br/>
+
+                <input type="radio" name="availability" id="radio2">
+                <label for="radio2">Part-Time</label>
+            </fieldset>
+            
+            <br/>
+            <br/>
+
+            <label for="comments">Additional Comments:</label><br/>
+            <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+
+            <br/>
+            <br/>
+
+            <input type="submit" name="done" id="done" value="Submit Apllication">
+        </form>
+    </body>
+</html>
