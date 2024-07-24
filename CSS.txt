@@ -1,0 +1,28 @@
+* CSS: Cascading Style Sheets
+
+-> Used to design the websites, change the appearance.
+-> Depends 4 properties
+  1. Origin and importance
+  2. Specificity
+  3. Order in the file
+  4. Inheritance
+
+-> Types of CSS styling:
+  1. Inline
+  2. Internal
+  3. External
+
+h1 {
+    color: green
+}
+-> In this code "h1" is selector, "color" is property and "green" is value.
+
+-> Priority Order
+  1. Inline
+  2. External or Internal (Whichever line comes later is prioritized.)
+
+-> Types of Selectors
+  1. element 
+  2. id
+  3. class
+  4. group 
