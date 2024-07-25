@@ -1,0 +1,3 @@
+* px: Pixels
+
+-> Physically 1 px is 1/96 of an inch. (0.26 mm)
