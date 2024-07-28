@@ -1,0 +1,14 @@
+-> Block element Properties:
+  1. New line
+  2. Takes full width by default
+  3. Custom width/height
+  4. Custom margin/padding
+
+-> Inline element Properties:
+  1. Tries to fit in same line.
+  2. Takes content width.
+  3. Custom width/height cant be applied.
+  4. Custom margin cant be applied but padding can be given.
+  5. Can be converted into block element.
+
+-> 
