@@ -1,0 +1,7 @@
+-> Types of Units:
+  1. Fixed / Absolute Units
+    * px (Pixel)
+  2. Relative Units
+    * vw/vh (Viewport)
+    * em (Relative to parent)
+    * rem (Relative to root tag)
