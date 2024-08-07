@@ -1,0 +1,1 @@
+* Flexbox: It is a type 1D layout method.
