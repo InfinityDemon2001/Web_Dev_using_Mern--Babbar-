@@ -1,0 +1,1 @@
+* Animation: When an element shifts from one to style to another.
