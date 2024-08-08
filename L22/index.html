@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            /* Globally declared */
+            :root {
+                /* Custom variable */
+                --primary-color: brown;
+                --custom-width: 330px;
+            }
+
+            .container {
+                background-color: beige;
+                border: 2px solid black;
+                height: 650px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .box {
+                background-color: aquamarine;
+                width: var(--custom-width);
+                height: 330px;
+                border: 1px solid var(--primary-color);
+                margin: 5px;
+                padding: 5px;
+
+                /* 1. Normal Shadow
+                box-shadow: 10px 15px var(--primary-color); */
+
+                /* 2. Shadow with blur
+                box-shadow: 10px 15px 5px brown; */
+
+                /* 3. Shadow with blur and spread
+                box-shadow: 10px 15px 5px 20px brown; */
+
+                /* 4. Inward Shadow
+                box-shadow: inset 10px 15px brown; */
+
+                /* 5. Multiple Shadows
+                box-shadow: 10px 15px red, 15px 8px green; */
+            }
+
+            #head1 {
+                /* Text Shadows */
+                text-shadow: 12px 13px 1px red, 8px 8px blue, 4px 4px yellow;
+                /* text-shadow: yellow 12px 13px 2px; */
+                /* text-shadow: white 12px 13px; */
+                /* text-shadow: 12px 13px; */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class = "container">
+            <div class = "box">
+                <img src = "Infinity.svg" alt = "Logo" height = "100px">
+
+                <h2 id = "head1">Welcome to Infinity</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, distinctio sed expedita porro beatae non dolorum dolorem quis cumque harum quaerat ullam hic praesentium voluptas!</p>
+            </div>
+        </div>
+    </body>
+</html>
