@@ -1,0 +1,2 @@
+* Transition: Movement from one source to destination.
+* Animation: Series of complex movements.
