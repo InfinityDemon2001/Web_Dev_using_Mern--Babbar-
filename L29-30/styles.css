@@ -1,0 +1,836 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.container {
+    max-width: 80vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+
+.header_container {
+    margin-bottom: 2.8rem;
+}
+
+.header_title {
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header_desc {
+    max-width: 668px;
+    text-align: center;
+    color: rgb(70, 59, 59);
+    margin: 0 auto;
+}
+
+.main_container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.poke_container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(61, 51, 51);
+    border-radius: 2px;
+}
+
+.poke_container:hover .poke_img{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+
+.poke_img_container {
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+}
+
+.poke_img {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.poke_title_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.poke_desc {
+    color: rgb(53, 43, 43);
+    font-size: 0.9rem;
+}
+
+.poke_footer_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.region_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.region_icon_container {
+    height: 2.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    border: 1px solid rgb(145, 138, 138);
+    border-radius: 50%;
+}
+
+.region_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.region_name span {
+    color: rgb(108, 27, 27);
+}
+
+.poke_type {
+    font-size: 0.9rem;
+    border: 1px solid rgb(108, 102, 102);
+    border-radius: 2px;
+    line-height: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    color: rgb(100, 99, 99);
+}
+
+/* Pikachu */
+.pikachu_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.pikachu_title_anchor:hover .pikachu_title {
+    color: rgb(207, 221, 12);
+}
+
+/* Goodra */
+.goodra_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.goodra_title_anchor:hover .goodra_title {
+    color: rgb(160, 88, 237);
+}
+
+/* Greninja */
+.greninja_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.greninja_title_anchor:hover .greninja_title {
+    color: rgb(31, 38, 234);
+}
+
+/* Krookodile */
+.krookodile_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.krookodile_title_anchor:hover .krookodile_title {
+    color: rgb(149, 39, 39);
+}
+
+/* Snorlax */
+.snorlax_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.snorlax_title_anchor:hover .snorlax_title {
+    color: rgb(44, 44, 121);
+}
+
+/* Infernape */
+.infernape_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.infernape_title_anchor:hover .infernape_title {
+    color: brown;
+}
+
+/* Charizard */
+.charizard_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.charizard_title_anchor:hover .charizard_title {
+    color: rgb(215, 140, 0);
+}
+
+/* Bulbasaur */
+.bulbasaur_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.bulbasaur_title_anchor:hover .bulbasaur_title {
+    color: rgb(41, 139, 72);
+}
+
+/* Kingler */
+.kingler_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.kingler_title_anchor:hover .kingler_title {
+    color: rgb(180, 83, 10);
+}
+
+/* Lucario */
+.lucario_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.lucario_title_anchor:hover .lucario_title {
+    color: rgb(43, 93, 132);
+}
+
+/* Lycanroc */
+.lycanroc_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.lycanroc_title_anchor:hover .lycanroc_title {
+    color: rgb(200, 111, 1);
+}
+
+/* Swellow */
+.swellow_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.swellow_title_anchor:hover .swellow_title {
+    color: rgb(173, 4, 4);
+}
+
+/* Scraggy */
+.scraggy_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.scraggy_title_anchor:hover .scraggy_title {
+    color: rgb(183, 149, 23);
+}
+
+/* Noctowl */
+.noctowl_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.noctowl_title_anchor:hover .noctowl_title {
+    color: rgb(183, 149, 23);
+}
+
+/* Corphish */
+.corphish_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.corphish_title_anchor:hover .corphish_title {
+    color: rgb(250, 46, 24);
+}
+
+/* Squirtle */
+.squirtle_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.squirtle_title_anchor:hover .squirtle_title {
+    color: rgb(5, 167, 153);
+}
+
+/* Pignite */
+.pignite_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.pignite_title_anchor:hover .pignite_title {
+    color: rgb(232, 65, 4);
+}
+
+/* Bayleef */
+.bayleef_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.bayleef_title_anchor:hover .bayleef_title {
+    color: rgb(165, 237, 77);
+}
+
+/* Dracovish */
+.dracovish_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.dracovish_title_anchor:hover .dracovish_title {
+    color: rgb(188, 3, 3);
+}
+
+/* Sceptile */
+.sceptile_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.sceptile_title_anchor:hover .sceptile_title {
+    color: rgb(14, 227, 14);
+}
+
+/* Gengar */
+.gengar_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.gengar_title_anchor:hover .gengar_title {
+    color: rgb(185, 16, 185);
+}
+
+/* Dragonite */
+.dragonite_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.dragonite_title_anchor:hover .dragonite_title {
+    color: rgb(253, 180, 45);
+}
+
+/* Quilava */
+.quilava_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.quilava_title_anchor:hover .quilava_title {
+    color: rgb(23, 108, 68);
+}
+
+/* Glalie */
+.glalie_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.glalie_title_anchor:hover .glalie_title {
+    color: rgb(103, 111, 133);
+}
+
+/* Gible */
+.gible_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.gible_title_anchor:hover .gible_title {
+    color: rgb(88, 98, 124);
+}
+
+/* Butterfree */
+.butterfree_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.butterfree_title_anchor:hover .butterfree_title {
+    color: rgb(152, 47, 181);
+}
+
+/* Primeape */
+.primeape_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.primeape_title_anchor:hover .primeape_title {
+    color: rgb(190, 68, 41);
+}
+
+/* Muk */
+.muk_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.muk_title_anchor:hover .muk_title {
+    color: rgb(174, 26, 174);
+}
+
+/* Mr. Mime */
+.mime_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.mime_title_anchor:hover .mime_title {
+    color: rgb(203, 83, 103);
+}
+
+/* Pidgeot */
+.pidgeot_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.pidgeot_title_anchor:hover .pidgeot_title {
+    color: rgb(203, 91, 66);
+}
+
+/* Lapras */
+.lapras_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.lapras_title_anchor:hover .lapras_title {
+    color: rgb(19, 165, 198);
+}
+
+/* Tauros */
+.tauros_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.tauros_title_anchor:hover .tauros_title {
+    color: rgb(209, 112, 28);
+}
+
+/* Heracross */
+.heracross_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.heracross_title_anchor:hover .heracross_title {
+    color: rgb(53, 73, 130);
+}
+
+/* Totodile */
+.totodile_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.totodile_title_anchor:hover .totodile_title {
+    color: rgb(59, 162, 196);
+}
+
+/* Torkoal */
+.torkoal_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.torkoal_title_anchor:hover .torkoal_title {
+    color: rgb(216, 115, 0);
+}
+
+/* Donphan */
+.donphan_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.donphan_title_anchor:hover .donphan_title {
+    color: rgb(82, 94, 117);
+}
+
+/* Aipom */
+.aipom_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.aipom_title_anchor:hover .aipom_title {
+    color: rgb(205, 31, 205);
+}
+
+/* Buizel */
+.buizel_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.buizel_title_anchor:hover .buizel_title {
+    color: rgb(255, 119, 0);
+}
+
+/* Gliscor */
+.gliscor_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.gliscor_title_anchor:hover .gliscor_title {
+    color: rgb(114, 91, 140);
+}
+
+/* Staraptor */
+.staraptor_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.staraptor_title_anchor:hover .staraptor_title {
+    color: rgb(90, 89, 91);
+}
+
+/* Torterra */
+.torterra_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.torterra_title_anchor:hover .torterra_title {
+    color: darkgreen;
+}
+
+/* Oshawott */
+.oshawott_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.oshawott_title_anchor:hover .oshawott_title {
+    color: rgb(0, 147, 221);
+}
+
+/* Snivy */
+.snivy_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.snivy_title_anchor:hover .snivy_title {
+    color: green;
+}
+
+/* Palpitoad */
+.palpitoad_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.palpitoad_title_anchor:hover .palpitoad_title {
+    color: rgb(0, 68, 255);
+}
+
+/* Boldore */
+.boldore_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.boldore_title_anchor:hover .boldore_title {
+    color: rgb(229, 11, 11);
+}
+
+/* Unfezant */
+.unfezant_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.unfezant_title_anchor:hover .unfezant_title {
+    color: rgb(111, 110, 114);
+}
+
+/* Leavanny */
+.leavanny_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.leavanny_title_anchor:hover .leavanny_title {
+    color: rgb(4, 175, 4);
+}
+
+/* Hawlucha */
+.hawlucha_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.hawlucha_title_anchor:hover .hawlucha_title {
+    color: rgb(239, 12, 69);
+}
+
+/* Talonflame */
+.talonflame_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.talonflame_title_anchor:hover .talonflame_title {
+    color: rgb(255, 89, 0);
+}
+
+/* Noivern */
+.noivern_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.noivern_title_anchor:hover .noivern_title {
+    color: rgb(150, 1, 150);
+}
+
+/* Rowlet */
+.rowlet_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.rowlet_title_anchor:hover .rowlet_title {
+    color: rgb(202, 169, 70);
+}
+
+/* Melmetal */
+.melmetal_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.melmetal_title_anchor:hover .melmetal_title {
+    color: rgb(120, 108, 108);
+}
+
+/* Naganadel */
+.naganadel_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.naganadel_title_anchor:hover .naganadel_title {
+    color: rgb(120, 18, 188);
+}
+
+/* Incineroar */
+.incineroar_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.incineroar_title_anchor:hover .incineroar_title {
+    color: rgb(188, 18, 18);
+}
+
+/* Sirfetch'd */
+.sirfetchd_title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(53, 46, 46);
+}
+
+.sirfetchd_title_anchor:hover .sirfetchd_title {
+    color: rgb(101, 188, 101);
+}
