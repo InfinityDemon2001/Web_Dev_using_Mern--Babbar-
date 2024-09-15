@@ -41,14 +41,33 @@ a {
 .main_container {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 650px) {
+    .main_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1080px) {
+    .main_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1340px) {
+    .main_container {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 .poke_container {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(61, 51, 51);
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .poke_container:hover .poke_img{
@@ -84,6 +103,7 @@ a {
 .poke_footer_container {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     padding: 1.5rem;
 }
 
