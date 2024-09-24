@@ -1,0 +1,5 @@
+-> Scripting language
+-> Used to define behaviour, functionality and brain of a website.
+
+* C++ program integrated with Javascript is called Node
+* Follows ECMA standard
