@@ -1,0 +1,10 @@
+* var -> Redefinition, Reassignation
+* let -> No Redefinition, Reassignation
+* const -> No Redefinition, No Reassignation
+
+Variable Naming Conventions:
+-> number, _, $
+-> no space
+-> camel case
+-> meaningful
+-> reserved keywords not allowed
