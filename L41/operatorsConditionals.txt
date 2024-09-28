@@ -1,0 +1,16 @@
+* Operators: Symbols which perform some action
+-> Arithmetic
+  -> Binary
+  -> Unary
+-> Assignment
+-> Comparison
+-> Ternary
+-> Logical
+-> Bitwise
+
+* Conditionals
+-> if
+-> if-else
+-> if-else if-else
+-> Nested if
+-> Switch
